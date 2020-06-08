@@ -8,6 +8,6 @@ public class BaseController {
 
 		@GetMapping("/hello")
 		public String call() {
-			return "Hi, I am base controller...111";
+			return "Hi, I am base controller from spring boot with pivotal cloud foundary services";
 		}
 }
