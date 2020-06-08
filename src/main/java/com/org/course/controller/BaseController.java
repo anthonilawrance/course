@@ -10,4 +10,8 @@ public class BaseController {
 		public String call() {
 			return "Hi, I am base controller from spring boot with pivotal cloud foundary services";
 		}
+		@GetMapping("/test")
+		public String test() {
+			return "Hi, Sasi kumar is elder brother for Anthoni Lawrance.";
+		}
 }
