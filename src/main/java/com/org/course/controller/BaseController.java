@@ -8,6 +8,6 @@ public class BaseController {
 
 		@GetMapping("/hello")
 		public String call() {
-			return "Hi";
+			return "Hi, I am base controller...";
 		}
 }
