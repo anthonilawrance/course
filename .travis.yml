@@ -1,0 +1,10 @@
+language: java
+script: mvn install
+notifications:
+  email:
+    recipients:
+      - skrishna.joy@gmail.com
+      - forsrinivasan@gmail.com
+      - anthonilawrance@gmail.com
+    on_success: always
+    on_failure: always
